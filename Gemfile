@@ -51,11 +51,20 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+
 # 本番環境にのみ必要
 group :production do 
-     gem 'unicorn'
+    gem 'unicorn'
+    # S3などのクラウドストレージ内の画像を参照するgem
+    gem 'fog-aws'
+    gem 'pg'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'haml-rails'
+
+# 画像をアップロードするgem
+gem 'carrierwave'
+# 画像をリサイズするgem
+gem 'mini_magick'
