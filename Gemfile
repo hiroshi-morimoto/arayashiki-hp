@@ -55,7 +55,7 @@ end
 # 本番環境にのみ必要
 group :production do 
     # gem 'unicorn'
-    
+
     # S3などのクラウドストレージ内の画像を参照するgem
     gem 'fog-aws'
     gem 'pg'
@@ -69,3 +69,5 @@ gem 'haml-rails'
 gem 'carrierwave'
 # 画像をリサイズするgem
 gem 'mini_magick'
+
+gem 'font-awesome-sass', '~> 5.4.1'

@@ -1,8 +1,11 @@
-@import "_reset";
-@import "hp_top/_main";
-@import "hp_top/_header";
-@import "hp_top/_footer";
 .wrapper{
   min-height: 100vh;
   position: relative;
 }
+
+@import "_reset";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import "hp_top/_main";
+@import "hp_top/_header";
+@import "hp_top/_footer";

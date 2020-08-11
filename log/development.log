@@ -8574,3 +8574,2629 @@ Processing by HpTopController#index as HTML
 Completed 200 OK in 83ms (Views: 75.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-08-11 20:52:43 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (384.3ms)
+  Rendered hp_top/_main.haml (7.4ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (418.4ms)
+Completed 200 OK in 477ms (Views: 465.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 20:53:34 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.2ms)
+  Rendered hp_top/_main.haml (9.1ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (27.1ms)
+Completed 200 OK in 65ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/app/assets/images/favicon.ico" for ::1 at 2020-08-11 20:53:34 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/images/app/assets/images/favicon.ico"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (153.3ms)
+Started GET "/" for ::1 at 2020-08-11 20:54:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (196.5ms)
+  Rendered hp_top/_main.haml (8.5ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (234.2ms)
+Completed 200 OK in 315ms (Views: 305.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 20:54:28 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.2ms)
+  Rendered hp_top/_main.haml (6.8ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.8ms)
+Completed 200 OK in 58ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/images/favicon.ico" for ::1 at 2020-08-11 20:54:28 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/images/images/favicon.ico"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.3ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (187.6ms)
+Started GET "/" for ::1 at 2020-08-11 20:54:48 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.5ms)
+  Rendered hp_top/_main.haml (6.7ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (23.7ms)
+Completed 200 OK in 53ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 20:54:50 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.4ms)
+  Rendered hp_top/_main.haml (7.6ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.6ms)
+Completed 200 OK in 69ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 20:56:02 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (197.5ms)
+  Rendered hp_top/_main.haml (12.1ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (236.9ms)
+Completed 200 OK in 319ms (Views: 305.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 20:57:01 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.5ms)
+  Rendered hp_top/_main.haml (10.6ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 76ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:04:05 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (24.5ms)
+  Rendered hp_top/_main.haml (20.3ms)
+  Rendered hp_top/_footer.haml (4.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (77.3ms)
+Completed 200 OK in 323ms (Views: 302.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:20:07 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (53.6ms)
+  Rendered hp_top/_main.haml (97.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (208.0ms)
+Completed 500 Internal Server Error in 264ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %td and nested within it.):
+    14:             %tr
+    15:               %td.time 2020/00/00
+    16:               %td.text [テキスト] テキスト
+    17:                 %i.fa.fa-cog
+    18:             %tr
+    19:               %td.time 2020/07/30-31
+    20:               %td.text  
+  
+app/views/hp_top/_main.haml:17
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211794238740'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (203.4ms)
+Started GET "/" for ::1 at 2020-08-11 21:20:17 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (41.5ms)
+  Rendered hp_top/_main.haml (11.1ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (68.9ms)
+Completed 200 OK in 122ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:21:36 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.9ms)
+  Rendered hp_top/_main.haml (425.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (445.7ms)
+Completed 500 Internal Server Error in 464ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e89951c8>):
+    15:               %td.time 2020/00/00
+    16:               %td.text [テキスト] テキスト
+    17:               %i.fa.fa-cog
+    18:               = link_to edit_user_registration_path i.fa.fa-cog
+    19:             %tr
+    20:               %td.time 2020/07/30-31
+    21:               %td.text  
+  
+app/views/hp_top/_main.haml:18:in `_app_views_hp_top__main_haml__2310613259796712932_70211786006340'
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211781569900'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (125.9ms)
+Started GET "/" for ::1 at 2020-08-11 21:21:45 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (10.2ms)
+  Rendered hp_top/_main.haml (280.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (304.4ms)
+Completed 500 Internal Server Error in 320ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e8918880>):
+    15:               %td.time 2020/00/00
+    16:               %td.text [テキスト] テキスト
+    17:               %i.fa.fa-cog
+    18:                 = link_to edit_user_registration_path i.fa.fa-cog
+    19:             %tr
+    20:               %td.time 2020/07/30-31
+    21:               %td.text  
+  
+app/views/hp_top/_main.haml:18:in `_app_views_hp_top__main_haml__2310613259796712932_70211793600160'
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211781314760'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (132.6ms)
+Started GET "/" for ::1 at 2020-08-11 21:21:56 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.3ms)
+  Rendered hp_top/_main.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (21.5ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %td and nested within it.):
+    14:             %tr
+    15:               %td.time 2020/00/00
+    16:               %td.text [テキスト] テキスト
+    17:                 = link_to edit_user_registration_path i.fa.fa-cog
+    18:             %tr
+    19:               %td.time 2020/07/30-31
+    20:               %td.text  
+  
+app/views/hp_top/_main.haml:17
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211793955600'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.5ms)
+Started GET "/" for ::1 at 2020-08-11 21:22:06 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.7ms)
+  Rendered hp_top/_main.haml (208.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (223.4ms)
+Completed 500 Internal Server Error in 237ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e17d6d98>):
+    14:             %tr
+    15:               %td.time 2020/00/00
+    16:               %td.text [テキスト] テキスト
+    17:               = link_to edit_user_registration_path i.fa.fa-cog
+    18:             %tr
+    19:               %td.time 2020/07/30-31
+    20:               %td.text  
+  
+app/views/hp_top/_main.haml:17:in `_app_views_hp_top__main_haml__2310613259796712932_70211773592500'
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211721935720'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (127.9ms)
+Started GET "/" for ::1 at 2020-08-11 21:22:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_main.haml (209.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (225.7ms)
+Completed 500 Internal Server Error in 239ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e04b7320>):
+    33:         = image_tag 'IMG_8243.JPG', alt:'top2', class:'top-image'
+    34:         %li
+    35:         = image_tag 'IMG_0075.JPG', alt:'top2', class:'top-image'
+    36:         = link_to edit_user_registration_path i.fa.fa-cog
+  
+app/views/hp_top/_main.haml:36:in `_app_views_hp_top__main_haml__2310613259796712932_70211772625500'
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211711919380'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.2ms)
+Started GET "/" for ::1 at 2020-08-11 21:22:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.3ms)
+  Rendered hp_top/_main.haml (15.1ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.2ms)
+Completed 200 OK in 82ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:23:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.7ms)
+  Rendered hp_top/_main.haml (6.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (21.7ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_main.haml:6: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_main.haml:38: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_main.haml:38: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_main.haml:41: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_main.haml:6: syntax error, unexpected ')'
+app/views/hp_top/_main.haml:38: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_main.haml:38: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_main.haml:41: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211794089120'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.4ms)
+Started GET "/" for ::1 at 2020-08-11 21:23:22 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.9ms)
+  Rendered hp_top/_main.haml (227.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (243.5ms)
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `edit_user_registration_path' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e13bd6a8>):
+    2:   .main 
+    3:     .main_news
+    4:       %h2 お知らせ
+    5:       = link_to edit_user_registration_path do
+    6:         %i.fa.fa-cog
+    7:       .main_news_top
+    8:         %table
+  
+app/views/hp_top/_main.haml:5:in `_app_views_hp_top__main_haml__2310613259796712932_70211781981400'
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211719803880'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (117.0ms)
+Started GET "/" for ::1 at 2020-08-11 21:23:30 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.6ms)
+  Rendered hp_top/_main.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h2 and nested within it.):
+    2:   .main 
+    3:     .main_news
+    4:       %h2 お知らせ
+    5:         = link_to edit_user_registration_path do
+    6:         %i.fa.fa-cog
+    7:       .main_news_top
+    8:         %table
+  
+app/views/hp_top/_main.haml:5
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211700785440'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (129.7ms)
+Started GET "/" for ::1 at 2020-08-11 21:23:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.7ms)
+  Rendered hp_top/_main.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h2 and nested within it.):
+    2:   .main 
+    3:     .main_news
+    4:       %h2 お知らせ
+    5:         = link_to edit_user_registration_path do
+    6:           %i.fa.fa-cog
+    7:       .main_news_top
+    8:         %table
+  
+app/views/hp_top/_main.haml:5
+app/views/hp_top/index.html.haml:3:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211713334320'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (123.9ms)
+Started GET "/" for ::1 at 2020-08-11 21:23:50 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.3ms)
+  Rendered hp_top/_main.haml (9.0ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.2ms)
+Completed 200 OK in 66ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:24:39 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (222.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (227.6ms)
+Completed 500 Internal Server Error in 241ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `edit_user_registration_path' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e0706d38>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:     = link_to edit_user_registration_path do
+    22:       %i.fa.fa-cog
+    23:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    24:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+  
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211773626880'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211713121060'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (109.3ms)
+Started GET "/" for ::1 at 2020-08-11 21:24:53 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211714109100'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.8ms)
+Started GET "/" for ::1 at 2020-08-11 21:25:06 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (246.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (252.8ms)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `edit_user_registration_path' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e08c3360>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:       = link_to edit_user_registration_path do
+    22:         %i.fa.fa-cog
+    23:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    24:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+  
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211773872660'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211714031160'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (128.0ms)
+Started GET "/" for ::1 at 2020-08-11 21:25:29 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_main.haml (12.2ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 85ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:25:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211719176580'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.7ms)
+Started GET "/" for ::1 at 2020-08-11 21:26:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.2ms)
+  Rendered hp_top/_main.haml (8.2ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.8ms)
+Completed 200 OK in 69ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:29:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (13.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (42.1ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 7 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+    19:       = link_to '#' do
+    20:         contact
+    21:       =link_to "#" do
+    22:        = fa_icon 'edit', class: "fa fa-edit"
+    23:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    24:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    25:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:22
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211786539840'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (135.0ms)
+Started GET "/" for ::1 at 2020-08-11 21:29:08 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (237.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (247.9ms)
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6dff0b110>):
+    19:       = link_to '#' do
+    20:         contact
+    21:       =link_to "#" do
+    22:         = fa_icon 'edit', class: "fa fa-edit"
+    23:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    24:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    25:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:22:in `block in _app_views_hp_top__header_haml___1148175191396484660_70211708470920'
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211708470920'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211708949940'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.6ms)
+Started GET "/" for ::1 at 2020-08-11 21:29:17 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:26: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211700264860'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.9ms)
+Started GET "/" for ::1 at 2020-08-11 21:29:25 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (115.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (119.9ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e900ee50>):
+    19:       = link_to '#' do
+    20:         contact
+    21:       =link_to "#" do
+    22:         = fa_icon 'edit', class: "fa fa-edit"
+    23:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    24:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    25:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:22:in `block in _app_views_hp_top__header_haml___1148175191396484660_70211721902020'
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211721902020'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211784965360'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (127.2ms)
+Started GET "/" for ::1 at 2020-08-11 21:30:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (185.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (190.8ms)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e17f8100>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:       = fa_icon 'home', class: 'icon'
+    22:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    23:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    24:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211721898940'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211722003980'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (147.9ms)
+Started GET "/" for ::1 at 2020-08-11 21:30:51 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (142.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (148.9ms)
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e2880888>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:         = fa_icon 'home', class: 'icon'
+    22:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    23:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    24:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:21:in `block in _app_views_hp_top__header_haml___1148175191396484660_70211730560080'
+app/views/hp_top/_header.haml:19:in `_app_views_hp_top__header_haml___1148175191396484660_70211730560080'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211730671840'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (131.1ms)
+Started GET "/" for ::1 at 2020-08-11 21:31:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (133.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (140.5ms)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e7a9e840>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:         = fa_icon 'home', class: 'icon'
+    22:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    23:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    24:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:21:in `block in _app_views_hp_top__header_haml___1148175191396484660_70211726649340'
+app/views/hp_top/_header.haml:19:in `_app_views_hp_top__header_haml___1148175191396484660_70211726649340'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211773725060'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (142.0ms)
+Started GET "/" for ::1 at 2020-08-11 21:31:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (126.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (133.3ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e0705b90>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:       = fa_icon 'home', class: 'icon'
+    22:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    23:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    24:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211773611300'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211713118820'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (123.0ms)
+Started GET "/" for ::1 at 2020-08-11 21:31:55 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (118.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (122.3ms)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x00007fb6e03c3298>:0x00007fb6e9089da8>):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:     = fa_icon 'home', class: 'icon'
+    22:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    23:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+    24:   -#       %li class:"header-link"><a href="contact.html">contact</a></li>
+  
+app/views/hp_top/_header.haml:21:in `_app_views_hp_top__header_haml___1148175191396484660_70211722462100'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___2274310442967062392_70211785217180'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (130.5ms)
+Started GET "/" for ::1 at 2020-08-11 21:32:02 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.8ms)
+  Rendered hp_top/_main.haml (15.6ms)
+  Rendered hp_top/_footer.haml (2.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (40.4ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__3174133355811043195_70211773948420'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (120.1ms)
+Started GET "/" for ::1 at 2020-08-11 21:33:06 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.3ms)
+  Rendered hp_top/_main.haml (20.7ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (45.5ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:11
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__3174133355811043195_70211772691940'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (162.1ms)
+Started GET "/" for ::1 at 2020-08-11 21:33:34 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.3ms)
+  Rendered hp_top/_main.haml (11.5ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (35.5ms)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__3174133355811043195_70211794362600'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (130.4ms)
+Started GET "/" for ::1 at 2020-08-11 21:34:02 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.2ms)
+  Rendered hp_top/_main.haml (10.2ms)
+  Rendered hp_top/_footer.haml (3.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.5ms)
+Completed 200 OK in 177ms (Views: 172.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:38:26 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (41.1ms)
+  Rendered hp_top/_main.haml (96.5ms)
+  Rendered hp_top/_footer.haml (6.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (189.4ms)
+Completed 500 Internal Server Error in 342ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__3174133355811043195_70211709047000'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.6ms)
+Started GET "/" for ::1 at 2020-08-11 21:38:53 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.5ms)
+  Rendered hp_top/_main.haml (11.7ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (35.7ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:7
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__3174133355811043195_70211794037200'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (29.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (26.2ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (498.6ms)
+Started GET "/" for ::1 at 2020-08-11 21:39:03 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.2ms)
+  Rendered hp_top/_main.haml (11.2ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.1ms)
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:8
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__3174133355811043195_70211781236940'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (112.7ms)
+Started GET "/" for ::1 at 2020-08-11 21:42:45 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (434.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (449.6ms)
+Completed 500 Internal Server Error in 476ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    1: .header
+    2:   .h1 
+    3:     = link_to root_path do
+    4:       = image_tag 'top1.png', class: 'top-logo' 
+    5:       一般社団法人アラヤシキ
+    6: 
+    7:   
+  
+app/assets/stylesheets/application.scss:7
+app/views/hp_top/_header.haml:4:in `block in _app_views_hp_top__header_haml___1172895793378370855_70355756387300'
+app/views/hp_top/_header.haml:3:in `_app_views_hp_top__header_haml___1172895793378370855_70355756387300'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___1292586793978334437_70355752667840'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (161.4ms)
+Started GET "/" for ::1 at 2020-08-11 21:43:09 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (72.7ms)
+  Rendered hp_top/_main.haml (8.6ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (96.9ms)
+Completed 200 OK in 148ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:50:29 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (12.8ms)
+  Rendered hp_top/_main.haml (18.5ms)
+  Rendered hp_top/_footer.haml (5.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (58.2ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/config
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/images
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/assets/stylesheets
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/javascripts
+  /Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/vendor/assets/stylesheets
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/application.scss:8
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1323953334167206070_70355767429080'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.2ms)
+Started GET "/" for ::1 at 2020-08-11 21:52:36 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (2856.8ms)
+  Rendered hp_top/_main.haml (44.2ms)
+  Rendered hp_top/_footer.haml (5.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (2930.5ms)
+Completed 200 OK in 3051ms (Views: 3040.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:53:38 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (30.3ms)
+  Rendered hp_top/_main.haml (20.8ms)
+  Rendered hp_top/_footer.haml (2.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (89.2ms)
+Completed 200 OK in 1184ms (Views: 1172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:54:02 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.8ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.9ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:54:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_main.haml (10.9ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 82ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:55:55 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (17.4ms)
+  Rendered hp_top/_main.haml (16.7ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (54.7ms)
+Completed 200 OK in 1035ms (Views: 1029.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:56:24 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.0ms)
+  Rendered hp_top/_main.haml (6.8ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.9ms)
+Completed 200 OK in 884ms (Views: 879.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:56:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.1ms)
+  Rendered hp_top/_main.haml (9.9ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 860ms (Views: 855.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:57:28 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.9ms)
+  Rendered hp_top/_main.haml (10.6ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.4ms)
+Completed 200 OK in 934ms (Views: 928.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:58:03 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.2ms)
+  Rendered hp_top/_main.haml (9.2ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 973ms (Views: 969.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:58:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.4ms)
+  Rendered hp_top/_main.haml (8.0ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 80ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:58:23 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.8ms)
+  Rendered hp_top/_main.haml (7.0ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 65ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:59:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.6ms)
+  Rendered hp_top/_main.haml (8.0ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.4ms)
+Completed 200 OK in 884ms (Views: 879.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:59:28 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.6ms)
+  Rendered hp_top/_main.haml (6.9ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (24.9ms)
+Completed 200 OK in 905ms (Views: 900.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 21:59:46 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (11.3ms)
+  Rendered hp_top/_main.haml (13.2ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (49.0ms)
+Completed 200 OK in 931ms (Views: 922.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:00:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.2ms)
+  Rendered hp_top/_main.haml (8.8ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (27.5ms)
+Completed 200 OK in 68ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:01:14 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.9ms)
+  Rendered hp_top/_main.haml (11.7ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 973ms (Views: 969.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:02:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.5ms)
+  Rendered hp_top/_main.haml (23.7ms)
+  Rendered hp_top/_footer.haml (3.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (48.6ms)
+Completed 200 OK in 1000ms (Views: 996.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:02:28 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 85ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:02:56 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.0ms)
+  Rendered hp_top/_main.haml (9.8ms)
+  Rendered hp_top/_footer.haml (3.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.5ms)
+Completed 200 OK in 88ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:03:14 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (32.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (49.3ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal element: classes and ids must have values.):
+    18:     %li.header-link
+    19:       = link_to '#' do
+    20:         contact
+    21:     %i.
+    22:     = link_to 'fa.fa-cog'
+    23:   -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+    24:   -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+  
+app/views/hp_top/_header.haml:21
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200357909980'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.1ms)
+Started GET "/" for ::1 at 2020-08-11 22:03:21 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.4ms)
+  Rendered hp_top/_main.haml (10.6ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (35.3ms)
+Completed 200 OK in 88ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:03:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.8ms)
+  Rendered hp_top/_main.haml (10.3ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.9ms)
+Completed 200 OK in 84ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:04:01 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.1ms)
+  Rendered hp_top/_main.haml (11.9ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 91ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:04:21 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:23: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:26: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200342087260'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.7ms)
+Started GET "/" for ::1 at 2020-08-11 22:04:28 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.1ms)
+  Rendered hp_top/_main.haml (8.8ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 70ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:04:35 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.7ms)
+  Rendered hp_top/_main.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.9ms)
+Completed 200 OK in 73ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:04:55 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (27.6ms)
+  Rendered hp_top/_main.haml (31.2ms)
+  Rendered hp_top/_footer.haml (4.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (92.6ms)
+Completed 200 OK in 1121ms (Views: 1110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:05:10 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.4ms)
+  Rendered hp_top/_main.haml (9.1ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.4ms)
+Completed 200 OK in 1070ms (Views: 1066.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:05:34 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.9ms)
+  Rendered hp_top/_main.haml (10.4ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 95ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:05:45 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.1ms)
+  Rendered hp_top/_main.haml (12.8ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.0ms)
+Completed 200 OK in 90ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:05:54 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.2ms)
+  Rendered hp_top/_main.haml (6.3ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 101ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:06:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.5ms)
+  Rendered hp_top/_main.haml (13.8ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 916ms (Views: 912.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:06:46 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_main.haml (9.3ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 97ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:07:11 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.6ms)
+  Rendered hp_top/_main.haml (8.4ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 80ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:07:29 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.0ms)
+  Rendered hp_top/_main.haml (8.8ms)
+  Rendered hp_top/_footer.haml (1.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.4ms)
+Completed 200 OK in 71ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:07:59 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_main.haml (9.5ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.9ms)
+Completed 200 OK in 77ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:08:16 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.0ms)
+  Rendered hp_top/_main.haml (8.9ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.5ms)
+Completed 200 OK in 71ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:08:23 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.4ms)
+  Rendered hp_top/_main.haml (13.5ms)
+  Rendered hp_top/_footer.haml (2.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.3ms)
+Completed 200 OK in 89ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:08:24 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.6ms)
+  Rendered hp_top/_main.haml (11.3ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (35.1ms)
+Completed 200 OK in 116ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:09:03 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_main.haml (9.2ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 91ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:09:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.8ms)
+  Rendered hp_top/_main.haml (9.0ms)
+  Rendered hp_top/_footer.haml (2.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 92ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:09:40 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.8ms)
+  Rendered hp_top/_main.haml (10.5ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.2ms)
+Completed 200 OK in 93ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:09:48 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.4ms)
+  Rendered hp_top/_main.haml (8.7ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.0ms)
+Completed 200 OK in 85ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:10:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.7ms)
+  Rendered hp_top/_main.haml (8.1ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 86ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:10:05 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.3ms)
+  Rendered hp_top/_main.haml (9.5ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.6ms)
+Completed 200 OK in 75ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:10:59 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.1ms)
+  Rendered hp_top/_main.haml (7.9ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 887ms (Views: 882.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:11:43 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.8ms)
+  Rendered hp_top/_main.haml (9.4ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.1ms)
+Completed 200 OK in 854ms (Views: 850.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:12:12 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.8ms)
+  Rendered hp_top/_main.haml (11.6ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 873ms (Views: 869.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:12:48 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:24: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:20: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:24: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200431184960'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (138.4ms)
+Started GET "/" for ::1 at 2020-08-11 22:13:23 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:20: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200339875840'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.9ms)
+Started GET "/" for ::1 at 2020-08-11 22:13:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:24: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:20: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:24: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200342725040'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.0ms)
+Started GET "/" for ::1 at 2020-08-11 22:13:46 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:19: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:19: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200423678220'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.8ms)
+Started GET "/" for ::1 at 2020-08-11 22:13:54 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (2.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:19: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:19: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200343538500'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.2ms)
+Started GET "/" for ::1 at 2020-08-11 22:14:07 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:19: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:19: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:20: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200427972640'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.1ms)
+Started GET "/" for ::1 at 2020-08-11 22:14:30 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:22: syntax error, unexpected ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:25: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200342485960'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.5ms)
+Started GET "/" for ::1 at 2020-08-11 22:14:36 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.7ms)
+  Rendered hp_top/_main.haml (12.5ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.5ms)
+Completed 200 OK in 89ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:14:54 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.2ms)
+  Rendered hp_top/_main.haml (10.4ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.8ms)
+Completed 200 OK in 896ms (Views: 889.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:15:29 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.4ms)
+  Rendered hp_top/_main.haml (10.2ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.9ms)
+Completed 200 OK in 922ms (Views: 918.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:16:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.0ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.6ms)
+Completed 200 OK in 70ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:17:12 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_main.haml (8.4ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 84ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:18:04 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (12.4ms)
+  Rendered hp_top/_main.haml (13.3ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (46.4ms)
+Completed 200 OK in 1362ms (Views: 1354.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:18:19 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.2ms)
+  Rendered hp_top/_main.haml (10.9ms)
+  Rendered hp_top/_footer.haml (2.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (37.5ms)
+Completed 200 OK in 872ms (Views: 866.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:26:14 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (57.6ms)
+  Rendered hp_top/_main.haml (159.8ms)
+  Rendered hp_top/_footer.haml (6.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (302.1ms)
+Completed 200 OK in 1840ms (Views: 1804.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:26:42 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.8ms)
+  Rendered hp_top/_main.haml (10.8ms)
+  Rendered hp_top/_footer.haml (3.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.1ms)
+Completed 200 OK in 968ms (Views: 963.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:26:52 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.0ms)
+  Rendered hp_top/_main.haml (9.7ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.2ms)
+Completed 200 OK in 829ms (Views: 825.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:27:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.5ms)
+  Rendered hp_top/_main.haml (10.2ms)
+  Rendered hp_top/_footer.haml (3.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.5ms)
+Completed 200 OK in 841ms (Views: 836.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:27:42 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_main.haml (9.0ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.1ms)
+Completed 200 OK in 90ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:28:17 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.9ms)
+  Rendered hp_top/_main.haml (8.9ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.5ms)
+Completed 200 OK in 81ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:28:23 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.6ms)
+  Rendered hp_top/_main.haml (7.9ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (27.3ms)
+Completed 200 OK in 87ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:28:51 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.3ms)
+  Rendered hp_top/_main.haml (9.4ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 88ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:29:13 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.3ms)
+  Rendered hp_top/_main.haml (9.3ms)
+  Rendered hp_top/_footer.haml (3.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.5ms)
+Completed 200 OK in 984ms (Views: 978.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:29:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.8ms)
+  Rendered hp_top/_main.haml (9.4ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.1ms)
+Completed 200 OK in 910ms (Views: 905.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:29:56 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.0ms)
+  Rendered hp_top/_main.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.8ms)
+Completed 200 OK in 934ms (Views: 930.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:30:04 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_main.haml (10.2ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.2ms)
+Completed 200 OK in 79ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:30:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.6ms)
+  Rendered hp_top/_main.haml (8.1ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.7ms)
+Completed 200 OK in 955ms (Views: 950.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:31:02 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_main.haml (9.8ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 911ms (Views: 905.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:31:18 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.3ms)
+  Rendered hp_top/_main.haml (9.5ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 923ms (Views: 919.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:31:27 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.4ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.2ms)
+Completed 200 OK in 915ms (Views: 910.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:32:03 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (54.2ms)
+  Rendered hp_top/_main.haml (66.3ms)
+  Rendered hp_top/_footer.haml (15.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (195.2ms)
+Completed 200 OK in 1985ms (Views: 1961.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:32:49 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (30.9ms)
+  Rendered hp_top/_main.haml (83.6ms)
+  Rendered hp_top/_footer.haml (4.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (151.8ms)
+Completed 200 OK in 229ms (Views: 215.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:36:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (39.8ms)
+  Rendered hp_top/_main.haml (35.3ms)
+  Rendered hp_top/_footer.haml (3.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (114.0ms)
+Completed 200 OK in 1559ms (Views: 1547.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:37:06 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.4ms)
+  Rendered hp_top/_main.haml (12.7ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.4ms)
+Completed 200 OK in 987ms (Views: 982.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:37:46 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (10.4ms)
+  Rendered hp_top/_main.haml (11.9ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.2ms)
+Completed 200 OK in 1244ms (Views: 1239.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:38:25 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.2ms)
+  Rendered hp_top/_main.haml (12.5ms)
+  Rendered hp_top/_footer.haml (3.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (44.5ms)
+Completed 200 OK in 1061ms (Views: 1057.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:38:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.0ms)
+  Rendered hp_top/_main.haml (10.6ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.9ms)
+Completed 200 OK in 861ms (Views: 853.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:38:51 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.9ms)
+  Rendered hp_top/_main.haml (8.7ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.5ms)
+Completed 200 OK in 836ms (Views: 831.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:39:04 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.3ms)
+  Rendered hp_top/_main.haml (7.2ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.8ms)
+Completed 200 OK in 822ms (Views: 815.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:39:13 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.1ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (27.4ms)
+Completed 200 OK in 825ms (Views: 820.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:49:34 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (52.7ms)
+  Rendered hp_top/_main.haml (38.4ms)
+  Rendered hp_top/_footer.haml (3.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (152.3ms)
+Completed 200 OK in 321ms (Views: 282.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:49:40 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.3ms)
+  Rendered hp_top/_main.haml (11.5ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.3ms)
+Completed 200 OK in 100ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:50:51 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (22.8ms)
+  Rendered hp_top/_main.haml (25.0ms)
+  Rendered hp_top/_footer.haml (5.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (84.1ms)
+Completed 200 OK in 280ms (Views: 273.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:52:08 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (14.2ms)
+  Rendered hp_top/_main.haml (25.5ms)
+  Rendered hp_top/_footer.haml (9.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (74.0ms)
+Completed 200 OK in 207ms (Views: 194.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:52:10 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.8ms)
+  Rendered hp_top/_main.haml (12.5ms)
+  Rendered hp_top/_footer.haml (3.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (40.4ms)
+Completed 200 OK in 118ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:52:13 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (10.3ms)
+  Rendered hp_top/_main.haml (11.8ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (37.5ms)
+Completed 200 OK in 110ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:53:40 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (12.1ms)
+  Rendered hp_top/_main.haml (19.9ms)
+  Rendered hp_top/_footer.haml (3.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (55.4ms)
+Completed 200 OK in 147ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:54:00 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (24.8ms)
+  Rendered hp_top/_main.haml (27.8ms)
+  Rendered hp_top/_footer.haml (4.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (85.4ms)
+Completed 200 OK in 1213ms (Views: 1202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:54:13 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.2ms)
+  Rendered hp_top/_main.haml (7.1ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.5ms)
+Completed 200 OK in 880ms (Views: 876.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:54:22 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.1ms)
+  Rendered hp_top/_main.haml (7.6ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.0ms)
+Completed 200 OK in 1002ms (Views: 998.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:54:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.5ms)
+  Rendered hp_top/_main.haml (12.2ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.1ms)
+Completed 200 OK in 1049ms (Views: 1044.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:54:43 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.6ms)
+  Rendered hp_top/_main.haml (10.4ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 814ms (Views: 810.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:55:04 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.1ms)
+  Rendered hp_top/_main.haml (11.0ms)
+  Rendered hp_top/_footer.haml (4.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.8ms)
+Completed 200 OK in 909ms (Views: 902.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:55:14 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.6ms)
+  Rendered hp_top/_main.haml (13.8ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 86ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:55:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.2ms)
+  Rendered hp_top/_main.haml (9.7ms)
+  Rendered hp_top/_footer.haml (2.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 896ms (Views: 891.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:55:37 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_main.haml (11.1ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 80ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:55:51 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.3ms)
+  Rendered hp_top/_main.haml (7.0ms)
+  Rendered hp_top/_footer.haml (3.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 813ms (Views: 808.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:55:55 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.9ms)
+  Rendered hp_top/_main.haml (6.7ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 68ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:56:39 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+haml_temp =  link_to '#',alt 'login' do
+                             ^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_do_block, expecting keyword_end
+...p =  link_to '#',alt 'login' do
+...                             ^~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/hp_top/_header.haml:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/hp_top/_header.haml:21: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/hp_top/_header.haml:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200343236280'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.9ms)
+Started GET "/" for ::1 at 2020-08-11 22:57:40 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (13.7ms)
+  Rendered hp_top/_main.haml (15.4ms)
+  Rendered hp_top/_footer.haml (3.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (48.0ms)
+Completed 200 OK in 105ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:57:49 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.5ms)
+  Rendered hp_top/_main.haml (8.9ms)
+  Rendered hp_top/_footer.haml (1.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 80ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:58:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.7ms)
+  Rendered hp_top/_main.haml (14.6ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (45.1ms)
+Completed 200 OK in 122ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:58:47 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.5ms)
+  Rendered hp_top/_main.haml (15.1ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.7ms)
+Completed 200 OK in 993ms (Views: 989.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:58:58 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.4ms)
+  Rendered hp_top/_main.haml (13.2ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 852ms (Views: 847.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:59:08 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.2ms)
+  Rendered hp_top/_main.haml (7.5ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 864ms (Views: 860.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:59:19 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.7ms)
+  Rendered hp_top/_main.haml (9.3ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 866ms (Views: 861.3ms | ActiveRecord: 0.0ms)
+
+
