@@ -1,7 +1,9 @@
 .footer {
-  line-height: 50px;
+  line-height: 60px;
   text-align: center;
   background-color: gray;
   color: #fff;
-  // padding-top: 10px;
+  width: 100%;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
 }
