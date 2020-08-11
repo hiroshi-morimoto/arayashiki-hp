@@ -8,6 +8,7 @@
     max-width: 1500px;
     font-size: 20px;
     text-decoration: none;
+    justify-content: center;
     color:black;
     &_news{
       background-color: rgb(219, 232, 255);
@@ -64,12 +65,12 @@
         margin:auto;
 
         padding: 40px;  
-        flex-wrap:wrap;
+        // flex-wrap:wrap;
         position:absolute;
       }
       .top-image{
         width: calc(100%/3);/*←画像を横に4つ並べる場合*/
-        padding:0 10px;/*←画像の左右に5pxの余白を入れる場合*/
+        padding:5px 0px;/*←画像の左右に5pxの余白を入れる場合*/
         max-width:100%; /*画像のはみだしを防ぐ*/
         height: 310px; /*画像の縦横比を維持 */
         filter: opacity(50%);
