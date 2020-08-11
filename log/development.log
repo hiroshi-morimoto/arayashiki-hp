@@ -11849,3 +11849,23 @@ Processing by HpTopController#index as HTML
 Completed 200 OK in 815ms (Views: 808.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-08-11 23:24:03 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.0ms)
+  Rendered hp_top/_main.haml (8.9ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.7ms)
+Completed 200 OK in 904ms (Views: 899.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:24:09 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.1ms)
+  Rendered hp_top/_main.haml (9.7ms)
+  Rendered hp_top/_footer.haml (3.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 874ms (Views: 870.0ms | ActiveRecord: 0.0ms)
+
+
