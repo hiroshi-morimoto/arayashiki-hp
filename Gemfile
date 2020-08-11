@@ -54,7 +54,8 @@ end
 
 # 本番環境にのみ必要
 group :production do 
-    gem 'unicorn'
+    # gem 'unicorn'
+    
     # S3などのクラウドストレージ内の画像を参照するgem
     gem 'fog-aws'
     gem 'pg'

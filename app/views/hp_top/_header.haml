@@ -1,17 +1,27 @@
-
 .header
   .h1 
     = link_to root_path do
-      = image_tag 'top1.png', class: 'top-logo'
+      = image_tag 'top1.png', class: 'top-logo' 
       一般社団法人アラヤシキ
 
-  -#   .nav
-  -#     .header-links
-  -#       = link_to "https://www.facebook.com/", class: "contents__btn" do
-  -#   Facebook.li class="header-link"><a href="about.html">About</a></li>
-  -#       <li class="header-link"><a href="projects.html">projects</a></li>
-  -#       <li class="header-link"><a href="blog.html">blog</a></li>
-  -#       <li class="header-link"><a href="contact.html">contact</a></li>
+  
+  %ul.header-links
+    %li.header-link
+      = link_to '#' do
+        About
+    %li.header-link
+      = link_to '#' do
+        projects
+    %li.header-link
+      = link_to '#' do
+        contact
+    %li.header-link
+      = link_to '#' do
+        blog
+  -#       %li class:"header-link"><a href="projects.html">projects</a></li>
+  -#       %li class:"header-link"><a href="blog.html">blog</a></li>
+  -#       %li class:"header-link"><a href="contact.html">contact</a></li>
   -#     </ul>
   -#   </nav>
   -# </header>
+  -# = link_to "https://www.facebook.com/", class: "contents__btn" do
