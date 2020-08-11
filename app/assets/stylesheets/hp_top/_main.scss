@@ -65,7 +65,7 @@
           width: calc(100%/3);/*←画像を横に4つ並べる場合*/
           padding:5px;/*←画像の左右に5pxの余白を入れる場合*/
           max-width: 380PX; /*画像のはみだしを防ぐ*/
-          height: 310px; /*画像の縦横比を維持 */
+          height: auto; /*画像の縦横比を維持 */
           filter: opacity(50%);
         }
       }
