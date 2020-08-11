@@ -12990,3 +12990,33 @@ Processing by HpTopController#index as HTML
 Completed 200 OK in 103ms (Views: 96.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-08-12 01:00:28 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (29.5ms)
+  Rendered hp_top/_main.haml (37.1ms)
+  Rendered hp_top/_footer.haml (7.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (281.5ms)
+Completed 200 OK in 1562ms (Views: 1535.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-12 01:00:39 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.5ms)
+  Rendered hp_top/_main.haml (12.9ms)
+  Rendered hp_top/_footer.haml (4.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.1ms)
+Completed 200 OK in 994ms (Views: 988.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-12 01:01:14 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.7ms)
+  Rendered hp_top/_main.haml (7.5ms)
+  Rendered hp_top/_footer.haml (3.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.5ms)
+Completed 200 OK in 76ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
