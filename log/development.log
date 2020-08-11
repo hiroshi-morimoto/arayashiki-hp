@@ -11613,3 +11613,239 @@ Processing by HpTopController#index as HTML
 Completed 200 OK in 77ms (Views: 73.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-08-11 23:16:48 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (11.5ms)
+  Rendered hp_top/_main.haml (12.5ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (45.3ms)
+Completed 200 OK in 109ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:16:51 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_main.haml (10.3ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 85ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:16:58 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.3ms)
+  Rendered hp_top/_main.haml (11.3ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 85ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:17:15 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.7ms)
+  Rendered hp_top/_main.haml (7.1ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (24.3ms)
+Completed 200 OK in 70ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:18:18 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_main.haml (10.7ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 1023ms (Views: 1017.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:18:31 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    19:       = link_to '#' do
+    20:         contact
+    21: .adm adm
+    22:   = link_to '#',alt: 'admin'do
+    23:     %i.fas.fa-cat 
+    24:    
+    25:     
+  
+app/views/hp_top/_header.haml:22
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200438067580'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.8ms)
+Started GET "/" for ::1 at 2020-08-11 23:18:45 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    19:       = link_to '#' do
+    20:         contact
+    21: .adm adm
+    22:   = link_to '#',alt: 'admin'do
+    23:     %i.fas.fa-cat 
+    24:    
+    25:     
+  
+app/views/hp_top/_header.haml:22
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml__3198075003824195184_70200431641260'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (132.5ms)
+Started GET "/" for ::1 at 2020-08-11 23:18:55 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_main.haml (17.4ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.5ms)
+Completed 200 OK in 958ms (Views: 954.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:19:08 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_main.haml (9.8ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 86ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:19:25 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.0ms)
+  Rendered hp_top/_main.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (28.3ms)
+Completed 200 OK in 892ms (Views: 885.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:19:45 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_main.haml (7.4ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 76ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:19:58 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.1ms)
+  Rendered hp_top/_main.haml (14.4ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.8ms)
+Completed 200 OK in 846ms (Views: 842.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:20:13 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.8ms)
+  Rendered hp_top/_main.haml (5.8ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (22.5ms)
+Completed 200 OK in 776ms (Views: 771.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:20:22 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.4ms)
+  Rendered hp_top/_main.haml (5.9ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 815ms (Views: 811.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:20:32 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.9ms)
+  Rendered hp_top/_main.haml (7.7ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.8ms)
+Completed 200 OK in 881ms (Views: 877.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:20:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.8ms)
+  Rendered hp_top/_main.haml (7.2ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.3ms)
+Completed 200 OK in 864ms (Views: 859.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:20:58 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.0ms)
+  Rendered hp_top/_main.haml (9.4ms)
+  Rendered hp_top/_footer.haml (2.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.9ms)
+Completed 200 OK in 850ms (Views: 845.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:21:10 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.3ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 66ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:21:48 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.7ms)
+  Rendered hp_top/_main.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (26.7ms)
+Completed 200 OK in 73ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 23:22:10 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_main.haml (8.8ms)
+  Rendered hp_top/_footer.haml (2.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 815ms (Views: 808.4ms | ActiveRecord: 0.0ms)
+
+
