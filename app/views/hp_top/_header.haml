@@ -18,19 +18,36 @@
     %li.header-link
       = link_to '#' do
         contact
-  = link_to '#',alt: 'signin',class: 'sign-in' do
-    %i.fas.fa-sign-in-alt
-      -# .fukidashi 吹き出しが表示されます
--#   %i.fas.fa-cat 
--#     .adm admin
-    
-          
+    %li.header-link
+      = link_to '#' do
+        donation
+  .mypage
+    - if user_signed_in?
+      = link_to 'log out', destroy_user_session_path , method: :delete , alt: 'signin',class: 'sign' do
+        = "#{current_user.nickname}でログイン中"
+    - else
+      = link_to 'sign up', new_user_registration_path,class: 'sign'
+      = link_to 'log in', new_user_session_path ,class: 'sign'
+      -# %i.fas.fa-sign-in-alt
+      
+-# .fukidashi 吹き出しが表示されます
 
 
-  -#       %li class:"header-link"><a href="projects.html">projects</a></li>
-  -#       %li class:"header-link"><a href="blog.html">blog</a></li>
-  -#       %li class:"header-link"><a href="contact.html">contact</a></li>
-  -#     </ul>
-  -#   </nav>
-  -# </header>
-  -# = link_to "https://www.facebook.com/", class: "contents__btn" do
+
+
+
+        -# %ul
+        -#   %li
+        -#     - unless user_signed_in?
+        -#       =link_to new_user_session_path do
+        -#         ログイン
+        -#   %li
+        -#     - unless user_signed_in?
+        -#       =link_to new_user_registration_path do
+        -#         新規会員登録
+        -#   %li
+        -#     - if user_signed_in?
+        -#       = link_to profiles_path do
+        -#         %p マイページ / #{current_user.nickname}
+
+                  
