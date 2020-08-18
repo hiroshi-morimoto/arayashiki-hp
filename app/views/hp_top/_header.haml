@@ -7,19 +7,19 @@
   
   %ul.header-links
     %li.header-link
-      = link_to '#' do
+      = link_to '/about' do
         About
     %li.header-link
-      = link_to '#' do
+      = link_to '/projects' do
         projects
     %li.header-link
       = link_to '#' do
         blog
     %li.header-link
-      = link_to '#' do
+      = link_to '/contact' do
         contact
     %li.header-link
-      = link_to '#' do
+      = link_to '/donation' do
         donation
   .mypage
     - if user_signed_in?
@@ -30,9 +30,8 @@
       = link_to 'log in', new_user_session_path ,class: 'sign'
       -# %i.fas.fa-sign-in-alt
 = link_to '#',alt: 'admin',class: 'neko'do
-  %i.fas.fa-cat 
-    .adm adm
--# .fukidashi 吹き出しが表示されます
+  .adm admin
+-# .fukidashi 吹き出しが表示されます %i.fas.fa-cat 
 
 
 
