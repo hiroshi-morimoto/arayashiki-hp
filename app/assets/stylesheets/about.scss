@@ -1,4 +1,16 @@
-.about{
-  text-decoration: none;
-  font-size: 15px;
-}
+  .body{
+    .about{
+      text-decoration: none;
+      font-size: 15px;
+      background-color: #A2E1F5;
+      height: 700px;
+      padding: 40px;
+      position: relative;
+      h2{
+        margin: 20px auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+      } 
+    }
+  }
