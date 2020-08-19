@@ -1,7 +1,10 @@
 .wrapper
   = render "hp_top/header.haml"
-  経歴
-  .youtube-container
-  %iframe{:allow => "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", :allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/Oe-rTLE7dOw", :width => "560"}
+  .body
+    .main 
+      .main_news
+        経歴
+        .youtube-container
+          %iframe{:allow => "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", :allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/Oe-rTLE7dOw", :width => "560"}
   = render "hp_top/footer.haml"
 
