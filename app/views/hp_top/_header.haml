@@ -23,30 +23,9 @@
   .mypage
     - if user_signed_in?
       = link_to 'log out', destroy_user_session_path , method: :delete , alt: 'signin',class: 'sign' 
-      = "#{current_user.nickname}でログイン中"
+      = link_to "#{current_user .nickname}",'#',class: 'nickname'
     - else
       = link_to 'sign up', new_user_registration_path,class: 'sign'
       = link_to 'log in', new_user_session_path ,class: 'sign'
-      -# %i.fas.fa-sign-in-alt
+
 = link_to 'admin','#',alt: 'admin',class: 'adm' 
--# .fukidashi 吹き出しが表示されます %i.fas.fa-cat 
-
-
-
-
-
-        -# %ul
-        -#   %li
-        -#     - unless user_signed_in?
-        -#       =link_to new_user_session_path do
-        -#         ログイン
-        -#   %li
-        -#     - unless user_signed_in?
-        -#       =link_to new_user_registration_path do
-        -#         新規会員登録
-        -#   %li
-        -#     - if user_signed_in?
-        -#       = link_to profiles_path do
-        -#         %p マイページ / #{current_user.nickname}
-
-                  

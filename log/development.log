@@ -36268,3 +36268,2076 @@ Processing by AboutController#index as HTML
 Completed 200 OK in 106ms (Views: 97.8ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/about" for ::1 at 2020-08-19 20:48:22 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (38.9ms)
+  Rendered hp_top/_footer.haml (2.6ms)
+  Rendered about/index.html.haml within layouts/application (80.3ms)
+Completed 200 OK in 260ms (Views: 246.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 20:56:43 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (30.0ms)
+  Rendered hp_top/_footer.haml (3.3ms)
+  Rendered about/index.html.haml within layouts/application (57.4ms)
+Completed 200 OK in 165ms (Views: 152.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 20:59:37 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (15.4ms)
+  Rendered hp_top/_footer.haml (3.5ms)
+  Rendered about/index.html.haml within layouts/application (34.4ms)
+Completed 200 OK in 1198ms (Views: 1191.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:00:28 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (14.4ms)
+  Rendered hp_top/_footer.haml (4.4ms)
+  Rendered about/index.html.haml within layouts/application (34.3ms)
+Completed 200 OK in 99ms (Views: 91.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:00:43 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.5ms)
+  Rendered about/index.html.haml within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:27: syntax error, unexpected '.'
+...:Haml::Helpers.html_escape((( .nickname"#{current_user.nickn...
+...                              ^):
+  
+app/views/hp_top/_header.haml:27: syntax error, unexpected '.'
+app/views/about/index.html.haml:2:in `_app_views_about_index_html_haml__928422826730612179_70247376589060'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.8ms)
+Started GET "/about" for ::1 at 2020-08-19 21:01:00 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.9ms)
+  Rendered about/index.html.haml within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:27: unknown type of %string
+...aml::Helpers.html_escape((( %nickname"#{current_user.nicknam...
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:27: syntax error, unexpected end-of-input
+...aml::Helpers.html_escape((( %nickname"#{current_user.nicknam...
+...                            ^~~):
+  
+app/views/hp_top/_header.haml:27: unknown type of %string
+app/views/hp_top/_header.haml:27: syntax error, unexpected end-of-input
+app/views/about/index.html.haml:2:in `_app_views_about_index_html_haml__928422826730612179_70247376962120'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.4ms)
+Started GET "/about" for ::1 at 2020-08-19 21:01:14 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered about/index.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 91ms (Views: 85.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:04:07 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (23.6ms)
+  Rendered hp_top/_footer.haml (9.5ms)
+  Rendered about/index.html.haml within layouts/application (59.8ms)
+Completed 200 OK in 1282ms (Views: 1272.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/sign_out" for ::1 at 2020-08-19 21:04:28 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (7.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (173.6ms)
+Started GET "/about" for ::1 at 2020-08-19 21:06:26 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (11.9ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered about/index.html.haml within layouts/application (27.1ms)
+Completed 200 OK in 1145ms (Views: 1140.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:06:42 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered about/index.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 933ms (Views: 928.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:07:00 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.4ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered about/index.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 916ms (Views: 910.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:07:09 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.6ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered about/index.html.haml within layouts/application (21.2ms)
+Completed 200 OK in 91ms (Views: 85.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:08:08 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.4ms)
+  Rendered hp_top/_footer.haml (3.0ms)
+  Rendered about/index.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 1047ms (Views: 1041.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:08:49 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (11.5ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered about/index.html.haml within layouts/application (25.7ms)
+Completed 200 OK in 942ms (Views: 935.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:09:14 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.3ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered about/index.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 896ms (Views: 891.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:09:48 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.5ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered about/index.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 867ms (Views: 862.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:10:16 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.4ms)
+  Rendered hp_top/_footer.haml (4.3ms)
+  Rendered about/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 89ms (Views: 83.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:10:19 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (10.0ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered about/index.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 103ms (Views: 97.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:10:25 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.8ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered about/index.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 73ms (Views: 69.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:11:03 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.5ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered about/index.html.haml within layouts/application (24.1ms)
+Completed 200 OK in 913ms (Views: 907.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:11:18 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered about/index.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 928ms (Views: 923.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:11:33 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered about/index.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 919ms (Views: 915.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-08-19 21:11:59 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TdDHzLZT19jkO7qZE1DS+9dPZRPpcWdplm8rEuy+fc+hSyw4t7l6nY/ZXChH2AbmOuxg7gGzl+MW5l96jr8OdA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:11:59 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (9.7ms)
+  Rendered hp_top/_main.haml (11.2ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (41.3ms)
+Completed 200 OK in 115ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-08-19 21:12:02 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered hp_top/_header.haml (19.0ms)
+  Rendered devise/shared/_links.html.haml (2.7ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (39.0ms)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-08-19 21:12:11 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tB6+5VGFGjua9dyCJcMdiapMXRg3kztYspbY3SczyuCmD4qlmuHe/8QPqTooXk/j/BOyh4opb9yvv/ASaUBShw==", "user"=>{"email"=>"aabb@gmail.jp", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'aabb@gmail.jp' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 250ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:12:12 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.7ms)
+  Rendered hp_top/_main.haml (9.9ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.8ms)
+Completed 200 OK in 89ms (Views: 84.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-08-19 21:12:21 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"esMpfOLrcOho/jK1JLtQliKWrnsl7u7iQlX8rcIm4woY/h6jNNas2X5+tle5b6V0RqHndYif/U8VLuXeGcJYJw=="}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:12:21 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.7ms)
+  Rendered hp_top/_main.haml (6.8ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (23.4ms)
+Completed 200 OK in 82ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-08-19 21:12:28 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.4ms)
+  Rendered devise/shared/_links.html.haml (2.8ms)
+  Rendered hp_top/_footer.haml (2.9ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-08-19 21:12:38 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jGlc4mv0MwCx/CnYVRxC/6pilx1/gib3eyqUWVTiqUAHsZZfJ0ghMf+R0ypTkpDm9/34ChWdfp7wWqd3bZGnjA==", "user"=>{"email"=>"aabb@gmail.jp", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'aabb@gmail.jp' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 244ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:12:38 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.3ms)
+  Rendered hp_top/_main.haml (10.7ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 91ms (Views: 87.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-08-19 21:13:14 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"e2f+vRbfj7IltdZL/3Lqh7UMQIh/e5kdx6IpLYNOPvgBtbRNeCRBePUyvyhIvQ/GKsWEj5Afug0hmYImo/isZg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:13:14 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.9ms)
+  Rendered hp_top/_main.haml (11.6ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.7ms)
+Completed 200 OK in 111ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-08-19 21:13:25 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.2ms)
+  Rendered devise/shared/_links.html.haml (3.7ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (26.9ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-08-19 21:13:34 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nyMI6Cz6U5V+aNJjyW+NGp8+P9IzGWfnJ6MC/ANLo+N/FHZjUL/fCfxOBkGfj/WomPbbdJozYKAfjoRN9/XShw==", "user"=>{"email"=>"aabb@gmail.jp", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'aabb@gmail.jp' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 246ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:13:34 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.1ms)
+  Rendered hp_top/_main.haml (8.8ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (29.7ms)
+Completed 200 OK in 83ms (Views: 79.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:13:59 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (9.0ms)
+  Rendered hp_top/_main.haml (17.3ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (47.9ms)
+Completed 200 OK in 1048ms (Views: 1043.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:14:08 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (5.3ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered about/index.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 73ms (Views: 68.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects" for ::1 at 2020-08-19 21:14:09 +0900
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (17.2ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered projects/index.html.haml within layouts/application (27.8ms)
+Completed 200 OK in 74ms (Views: 69.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects" for ::1 at 2020-08-19 21:14:10 +0900
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (5.7ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered projects/index.html.haml within layouts/application (17.2ms)
+Completed 200 OK in 72ms (Views: 67.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-19 21:14:11 +0900
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.6ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered contact/index.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 78ms (Views: 73.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:14:12 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.6ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered donation/index.html.haml within layouts/application (19.1ms)
+Completed 200 OK in 78ms (Views: 72.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:14:33 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (10.0ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered donation/index.html.haml within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 633ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  }": expected selector or at-rule, was "}"):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    5:     %title Arayasikihp
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:     = favicon_link_tag 'favicon.ico'
+   10:   %body
+  
+app/assets/stylesheets/hp_top/_header.scss:54
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1469962172297405363_70247377588480'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (119.6ms)
+Started GET "/donation" for ::1 at 2020-08-19 21:14:42 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.5ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered donation/index.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 840ms (Views: 836.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:15:20 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (9.8ms)
+  Rendered hp_top/_footer.haml (2.7ms)
+  Rendered donation/index.html.haml within layouts/application (22.6ms)
+Completed 200 OK in 960ms (Views: 955.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:15:47 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered donation/index.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 928ms (Views: 921.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:16:03 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.4ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered donation/index.html.haml within layouts/application (20.2ms)
+Completed 200 OK in 889ms (Views: 883.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:16:27 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (12.2ms)
+  Rendered hp_top/_footer.haml (3.1ms)
+  Rendered donation/index.html.haml within layouts/application (24.9ms)
+Completed 200 OK in 123ms (Views: 118.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:16:30 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.8ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered donation/index.html.haml within layouts/application (19.2ms)
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:16:59 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.9ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered donation/index.html.haml within layouts/application (17.8ms)
+Completed 200 OK in 73ms (Views: 68.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:17:17 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (5.5ms)
+  Rendered hp_top/_footer.haml (1.4ms)
+  Rendered donation/index.html.haml within layouts/application (14.2ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:17:26 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.7ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered about/index.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 83ms (Views: 75.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:18:44 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (17.9ms)
+  Rendered hp_top/_footer.haml (2.8ms)
+  Rendered about/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 1036ms (Views: 1029.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:19:22 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.8ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered about/index.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 963ms (Views: 958.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:20:17 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered about/index.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 937ms (Views: 932.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:20:24 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered about/index.html.haml within layouts/application (23.5ms)
+Completed 200 OK in 95ms (Views: 88.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:20:26 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (5.5ms)
+  Rendered hp_top/_main.haml (10.3ms)
+  Rendered hp_top/_footer.haml (2.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.7ms)
+Completed 200 OK in 98ms (Views: 92.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:22:06 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.0ms)
+  Rendered hp_top/_main.haml (11.2ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 963ms (Views: 959.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:22:31 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.5ms)
+  Rendered hp_top/_main.haml (9.6ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.5ms)
+Completed 200 OK in 973ms (Views: 969.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:22:42 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered about/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 102ms (Views: 96.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:22:56 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (9.8ms)
+  Rendered hp_top/_main.haml (11.4ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.5ms)
+Completed 200 OK in 120ms (Views: 111.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:23:42 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (10.6ms)
+  Rendered hp_top/_main.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 110ms (Views: 104.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:24:33 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (17.7ms)
+  Rendered hp_top/_main.haml (11.4ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (47.9ms)
+Completed 200 OK in 120ms (Views: 114.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:25:06 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_main.haml (16.1ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (39.0ms)
+Completed 200 OK in 1063ms (Views: 1057.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:25:18 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (5.4ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered donation/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 81ms (Views: 77.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-19 21:25:19 +0900
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.6ms)
+  Rendered hp_top/_footer.haml (1.3ms)
+  Rendered contact/index.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 64ms (Views: 60.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:25:20 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.7ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered about/index.html.haml within layouts/application (23.1ms)
+Completed 200 OK in 86ms (Views: 78.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:25:23 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (18.1ms)
+  Rendered hp_top/_main.haml (10.8ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (46.4ms)
+Completed 200 OK in 110ms (Views: 104.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-08-19 21:25:25 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (11.3ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered about/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 97ms (Views: 90.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects" for ::1 at 2020-08-19 21:25:26 +0900
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (6.4ms)
+  Rendered hp_top/_footer.haml (5.1ms)
+  Rendered projects/index.html.haml within layouts/application (23.3ms)
+Completed 200 OK in 96ms (Views: 91.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects" for ::1 at 2020-08-19 21:25:27 +0900
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (5.6ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered projects/index.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 67ms (Views: 62.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-19 21:25:27 +0900
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.haml within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (9.3ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered contact/index.html.haml within layouts/application (30.8ms)
+Completed 200 OK in 101ms (Views: 94.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/donation" for ::1 at 2020-08-19 21:25:29 +0900
+Processing by DonationController#index as HTML
+  Rendering donation/index.html.haml within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.7ms)
+  Rendered hp_top/_footer.haml (1.6ms)
+  Rendered donation/index.html.haml within layouts/application (18.1ms)
+Completed 200 OK in 80ms (Views: 75.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-08-19 21:25:40 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"djm1ZNeJPX+5bCPakbbc2fDdqzd2TkMfIbzopDXfpd0qj/bCc+3ObCY2K3Cu7sSMzwwrcxlyf0V906IHk46cSQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:25:40 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.9ms)
+  Rendered hp_top/_main.haml (9.8ms)
+  Rendered hp_top/_footer.haml (3.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 103ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:27:59 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (40.8ms)
+  Rendered hp_top/_main.haml (32.5ms)
+  Rendered hp_top/_footer.haml (3.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (112.7ms)
+Completed 200 OK in 1368ms (Views: 1353.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-08-19 21:28:08 +0900
+Processing by Users::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.4ms)
+  Rendered devise/shared/_error_messages.html.haml (2.1ms)
+  Rendered devise/shared/_links.html.haml (2.9ms)
+  Rendered hp_top/_footer.haml (3.0ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (38.6ms)
+Completed 200 OK in 132ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-08-19 21:28:10 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.6ms)
+  Rendered devise/shared/_links.html.haml (2.5ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (26.6ms)
+Completed 200 OK in 95ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-08-19 21:28:17 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NLZOtK3OF7fU8R33mdZptxyeDmBeZ3gVfywhHvirtGBY6UW3KrymVk0xgFTzpzK/hs3Dr8UVr8ONkP7vdqqg/A==", "user"=>{"email"=>"aabb@gmail.jp", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'aabb@gmail.jp' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 248ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:28:17 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (11.6ms)
+  Rendered hp_top/_main.haml (10.0ms)
+  Rendered hp_top/_footer.haml (1.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (35.8ms)
+Completed 200 OK in 87ms (Views: 77.8ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:28:38 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.1ms)
+  Rendered hp_top/_main.haml (10.8ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 949ms (Views: 942.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:29:52 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (9.8ms)
+  Rendered hp_top/_main.haml (9.2ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (34.9ms)
+Completed 200 OK in 1123ms (Views: 1117.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:29:55 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.3ms)
+  Rendered hp_top/_main.haml (10.3ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (36.0ms)
+Completed 200 OK in 109ms (Views: 103.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:30:30 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.3ms)
+  Rendered hp_top/_main.haml (12.1ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.1ms)
+Completed 200 OK in 964ms (Views: 957.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:30:59 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.7ms)
+  Rendered hp_top/_main.haml (11.5ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (37.7ms)
+Completed 200 OK in 968ms (Views: 962.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:32:17 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.3ms)
+  Rendered hp_top/index.html.haml within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected tLABEL, expecting '='
+..."#{current_user.nickname,class: 'nickname'} "
+...                         ^~~~~~):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected tLABEL, expecting '='
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247370327180'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.8ms)
+Started GET "/" for ::1 at 2020-08-19 21:32:44 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected ':'
+...elpers.html_escape((( "#{class: 'nickname',current_user.nick...
+...                              ^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected ',', expecting tSTRING_DEND
+...escape((( "#{class: 'nickname',current_user.nickname} "
+...                              ^):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected ':'
+app/views/hp_top/_header.haml:26: syntax error, unexpected ',', expecting tSTRING_DEND
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247370054340'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.4ms)
+Started GET "/" for ::1 at 2020-08-19 21:33:36 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (16.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (24.8ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+...:Haml::Helpers.html_escape((( .name"#{current_user.nickname}...
+...                              ^):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247375563500'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.1ms)
+Started GET "/" for ::1 at 2020-08-19 21:34:18 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (4.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected tLABEL, expecting '='
+...scape((( "#{current_user,class:.nickname} "
+...                         ^~~~~~):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected tLABEL, expecting '='
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247443990220'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.2ms)
+Started GET "/" for ::1 at 2020-08-19 21:34:25 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+...scape((( "#{current_user,class.nickname} "
+...                              ^):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247439029440'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.6ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.8ms)
+Started GET "/" for ::1 at 2020-08-19 21:35:04 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (20.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (25.9ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `nickname' for "nickname":String):
+    23:   .mypage
+    24:     - if user_signed_in?
+    25:       = link_to 'log out', destroy_user_session_path , method: :delete , alt: 'signin',class: 'sign' 
+    26:       = "#{current_user'nickname'.nickname} "
+    27:     - else
+    28:       = link_to 'sign up', new_user_registration_path,class: 'sign'
+    29:       = link_to 'log in', new_user_session_path ,class: 'sign'
+  
+app/views/hp_top/_header.haml:26:in `_app_views_hp_top__header_haml___1853195408226997364_70247443727880'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247366612040'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (105.7ms)
+Started GET "/" for ::1 at 2020-08-19 21:35:18 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (5.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+...(( "#{current_user 'nickname',.nickname} "
+...                              ^):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247443651500'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (133.7ms)
+Started GET "/" for ::1 at 2020-08-19 21:35:36 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (8.1ms)
+  Rendered hp_top/_main.haml (16.8ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (43.0ms)
+Completed 200 OK in 962ms (Views: 957.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:36:19 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (2.8ms)
+  Rendered hp_top/index.html.haml within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+...:Haml::Helpers.html_escape((( .nickneme "#{current_user .nic...
+...                              ^):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected '.'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247365891200'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.6ms)
+Started GET "/" for ::1 at 2020-08-19 21:36:40 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected tLABEL
+...::Helpers.html_escape((( class: "#{current_user .nickname}"
+...                         ^~~~~~):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected tLABEL
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247437732420'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.2ms)
+Started GET "/" for ::1 at 2020-08-19 21:36:47 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (3.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:26: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+...ass "#{current_user .nickname}"
+...                               ^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:27: syntax error, unexpected keyword_else, expecting ')'
+...buffer << ("\n".freeze);;  else
+...                           ^~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:30: syntax error, unexpected keyword_end, expecting ')'
+...t.buffer << ("\n".freeze);; end;; _hamlout.buffer << ("</div...
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:32: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:32: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/hp_top/_header.haml:35: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/hp_top/_header.haml:26: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+app/views/hp_top/_header.haml:27: syntax error, unexpected keyword_else, expecting ')'
+app/views/hp_top/_header.haml:30: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:32: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/hp_top/_header.haml:32: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/_header.haml:35: syntax error, unexpected keyword_end, expecting ')'
+app/views/hp_top/index.html.haml:2:in `_app_views_hp_top_index_html_haml___352631832627482490_70247360408320'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.3ms)
+Started GET "/" for ::1 at 2020-08-19 21:37:07 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (10.0ms)
+  Rendered hp_top/_main.haml (12.2ms)
+  Rendered hp_top/_footer.haml (1.7ms)
+  Rendered hp_top/index.html.haml within layouts/application (35.7ms)
+Completed 200 OK in 103ms (Views: 98.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:37:12 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.2ms)
+  Rendered hp_top/_main.haml (8.9ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (30.3ms)
+Completed 200 OK in 88ms (Views: 82.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:38:05 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (16.4ms)
+  Rendered hp_top/_main.haml (15.2ms)
+  Rendered hp_top/_footer.haml (2.1ms)
+  Rendered hp_top/index.html.haml within layouts/application (48.8ms)
+Completed 200 OK in 109ms (Views: 104.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:38:21 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (7.9ms)
+  Rendered hp_top/_main.haml (13.6ms)
+  Rendered hp_top/_footer.haml (1.9ms)
+  Rendered hp_top/index.html.haml within layouts/application (38.8ms)
+Completed 200 OK in 926ms (Views: 921.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-08-19 21:38:24 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7FB5Wew7hhkRL/up6fk6dUy6FofydkFV4YX3QpLBYC81zYHTbsvHH7CnPh7xbgttBLowd/PME4j1Fqm5ZuyxQw=="}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:38:24 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.5ms)
+  Rendered hp_top/_main.haml (8.1ms)
+  Rendered hp_top/_footer.haml (2.0ms)
+  Rendered hp_top/index.html.haml within layouts/application (31.5ms)
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-08-19 21:38:28 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.3ms)
+  Rendered devise/shared/_links.html.haml (3.0ms)
+  Rendered hp_top/_footer.haml (2.5ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (35.2ms)
+Completed 200 OK in 112ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-08-19 21:38:35 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJcXe15X2NHXiKvqfBsYR913gA5BcRGJiThPPtrZFAN1S9vLayXOQw+QbRETjmuv8LTxVIWDFzzQee/g7WVMcg==", "user"=>{"email"=>"aabb@gmail.jp", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'aabb@gmail.jp' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 245ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:38:36 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered hp_top/_header.haml (4.7ms)
+  Rendered hp_top/_main.haml (6.5ms)
+  Rendered hp_top/_footer.haml (1.5ms)
+  Rendered hp_top/index.html.haml within layouts/application (22.1ms)
+Completed 200 OK in 64ms (Views: 60.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-08-19 21:38:42 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kA6KC6HU4abP18c8RZi05YIIZGlplnEFXksEIvo8e/c63d0cs729DtlW5SUvvhLaMwt7N8dFptej4/6JFkvWJA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-19 21:38:42 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (7.0ms)
+  Rendered hp_top/_main.haml (8.2ms)
+  Rendered hp_top/_footer.haml (2.4ms)
+  Rendered hp_top/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 91ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-21 14:37:57 +0900
+Processing by HpTopController#index as HTML
+  Rendering hp_top/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (97.1ms)
+  Rendered hp_top/_main.haml (41.5ms)
+  Rendered hp_top/_footer.haml (7.6ms)
+  Rendered hp_top/index.html.haml within layouts/application (253.7ms)
+Completed 200 OK in 483ms (Views: 445.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-08-21 14:38:00 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered about/index.html.haml within layouts/application (24.9ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:21: unknown regexp options - kkk
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:21: syntax error, unexpected '}', expecting =>
+...koukoku', {/about/koukoku.haml})
+...                              ^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:24: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:24: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:27: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/about/index.html.haml:21: unknown regexp options - kkk
+app/views/about/index.html.haml:21: syntax error, unexpected '}', expecting =>
+app/views/about/index.html.haml:24: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/about/index.html.haml:24: syntax error, unexpected keyword_end, expecting ')'
+app/views/about/index.html.haml:27: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (159.7ms)
+Started GET "/about" for ::1 at 2020-08-21 14:38:16 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered about/index.html.haml within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:21: syntax error, unexpected '}', expecting =>
+...nk_to('koukoku', {koukoku.haml})
+...                              ^
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:24: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:24: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/Users/morimotohiroshi/Downloads/プログラム・コード/arayasiki-hp/arayasiki-hp/app/views/about/index.html.haml:27: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/about/index.html.haml:21: syntax error, unexpected '}', expecting =>
+app/views/about/index.html.haml:24: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/about/index.html.haml:24: syntax error, unexpected keyword_end, expecting ')'
+app/views/about/index.html.haml:27: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.3ms)
+Started GET "/about" for ::1 at 2020-08-21 14:39:15 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (14.3ms)
+  Rendered hp_top/_footer.haml (3.3ms)
+  Rendered about/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 125ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/koukoku.haml" for ::1 at 2020-08-21 14:39:18 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/koukoku.haml"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (34.4ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (213.3ms)
+Started GET "/about" for ::1 at 2020-08-21 14:39:58 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (32.1ms)
+  Rendered hp_top/_footer.haml (4.2ms)
+  Rendered about/index.html.haml within layouts/application (55.0ms)
+Completed 200 OK in 248ms (Views: 241.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for ::1 at 2020-08-21 14:40:00 +0900
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (6.7ms)
+  Rendered hp_top/_footer.haml (2.2ms)
+  Rendered projects/index.html.haml within layouts/application (21.2ms)
+Completed 200 OK in 100ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-08-21 14:40:03 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (8.0ms)
+  Rendered hp_top/_footer.haml (4.0ms)
+  Rendered about/index.html.haml within layouts/application (24.6ms)
+Completed 200 OK in 116ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-08-21 14:42:43 +0900
+Processing by AboutController#index as HTML
+  Rendering about/index.html.haml within layouts/application
+  Rendered hp_top/_header.haml (35.2ms)
+  Rendered hp_top/_footer.haml (4.2ms)
+  Rendered about/index.html.haml within layouts/application (68.7ms)
+Completed 200 OK in 230ms (Views: 210.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:42:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/about/koukoku.haml"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (21.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (166.0ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:43:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/about/koukoku.haml"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (14.3ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (170.5ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:43:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/about/koukoku.haml"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (33.9ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (18.2ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (202.7ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:45:05 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/about/koukoku.haml"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (26.5ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (226.9ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:49:49 +0900
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AboutController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.1ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:49:59 +0900
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AboutController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:52:01 +0900
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AboutController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (3.3ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:52:04 +0900
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AboutController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.3ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:52:33 +0900
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AboutController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:52:36 +0900
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AboutController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.9ms)
+Started GET "/about/koukoku.haml" for ::1 at 2020-08-21 14:55:30 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/about/koukoku.haml"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [25 times] (10.1ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /Users/morimotohiroshi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (165.5ms)

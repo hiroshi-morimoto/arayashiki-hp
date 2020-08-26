@@ -8,6 +8,11 @@
   font-size: 20px;
   height: 80px;
   white-space: nowrap;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
   .h1__title {
     text-decoration: none;
     color: #fff;
@@ -21,16 +26,14 @@
       vertical-align: middle;
     }
   }
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
+
   .header-links{
     // overflow: hidden;
     overflow: scroll;
     list-style: none;
     display: flex; 
     justify-self: end;
+    font-weight: bold;
     :hover {
       color: #80C2AD;
     }
@@ -41,8 +44,13 @@
   .mypage{
     // overflow: hidden;
     overflow: scroll;
+    color: #00485E;
+    font-weight: bold;
+    .nickname{
+      padding-left: 15px;
+    }
     .sign{
-      padding-left: 10px;
+      padding-left: 15px;
     }
     :hover {
       color: #80C2AD;
