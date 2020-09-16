@@ -7,4 +7,5 @@ class User < ApplicationRecord
   validates :nickname, presence: true, uniqueness: true
 
   has_many :sns_credentials
+  has_many :card
 end

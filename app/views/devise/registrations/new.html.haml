@@ -34,6 +34,7 @@
         %br/
         = f.password_field :password_confirmation, autocomplete: "new-password"
       .actions
-        -# = f.submit "Sign up"
+        = f.submit "Sign up"
+      %br/
     = render "devise/shared/links"
 = render "hp_top/footer"

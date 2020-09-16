@@ -15,5 +15,12 @@ Rails.application.routes.draw do
   resources :projects, only: :index
   resources :contact, only: :index
   resources :donation, only: :index
-  
+  resources :mypage, only: :index
+  resources :card, only: [:new, :show] do
+    collection do
+      post 'show', to: 'card#show'
+      post 'pay', to: 'card#pay'
+      post 'delete', to: 'card#delete'
+    end
+  end
 end
